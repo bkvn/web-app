@@ -21,7 +21,7 @@ Importing sounds into buttons and playing them with mouse clicks and also settin
 
 ## 6. What parts of the application, in the past week, were frustrating?
 
-Learning how to set a default size for each page so that wireframe will have a consistent feel for users using computers with different screen sizes was a bit frustrating.
+Learning how to set a default size for each page so that wireframe will have a consistent feel for users and adjust to different screen sizes automatically was a bit frustrating.
 
 ## 7. Did you have to radically alter something you'd finished previously?
 
