@@ -9,7 +9,7 @@ I have built a clear wireframe that presents much information about my web app s
 
 ## 3. What are your goals for this week?
 
-My goal for this week to design the drum pads and learn how to trigger sounds by mouse clicking so that I will learn how to embed sounds and play them with Javascript.
+My goal for this week is to design the drum pads and learn how to trigger sounds by mouse clicking so that I will learn how to embed sounds and play them with Javascript.
 
 ## 4. What concepts or techniques did you learn?
 
