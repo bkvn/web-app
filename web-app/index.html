@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Interactive Drum Machine</title>
+		<link href="css/general.css" rel="stylesheet">
+    </head>
+
+    <body>
+    	
+    	<div id="pageWrapper">
+    	
+    		<div id="filesWrapper">
+    		
+    			<!--Files for Row 1-->
+    			
+    			<div class="fileWrapper">
+					<label for="file1">1</label>
+					<input type="text" id="file1">
+					<button class="loadFile" id="loadFile1">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">	
+					<label for="file2">2</label>
+					<input type="text" id="file2">
+					<button class="loadFile" id="loadFile2">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">	
+					<label for="file3">3</label>
+					<input type="text" id="file3">
+					<button class="loadFile" id="loadFile3">Load Sample</button>
+				</div>	
+				
+				<div class="fileWrapper">	
+					<label for="file4">4</label>
+					<input type="text" id="file4">
+					<button class="loadFile" id="loadFile4">Load Sample</button>
+				</div>
+				
+				<!--Files for Row 2-->
+				
+				<div class="fileWrapper">
+					<label for="file5">Q</label>
+					<input type="text" id="file5">
+					<button class="loadFile" id="loadFile5">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">	
+					<label for="file6">W</label>
+					<input type="text" id="file6">
+					<button class="loadFile" id="loadFile6">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">
+					<label for="file7">E</label>
+					<input type="text" id="file7">
+					<button class="loadFile" id="loadFile7">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">
+					<label for="file8">R</label>
+					<input type="text" id="file8">
+					<button class="loadFile" id="loadFile8">Load Sample</button>
+				</div>
+				
+				<!--Files for Row 3-->
+				
+				<div class="fileWrapper">
+					<label for="file9">A</label>
+					<input type="text" id="file9">
+					<button class="loadFile" id="loadFile9">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">
+					<label for="file10">S</label>
+					<input type="text" id="file10">
+					<button class="loadFile" id="loadFile10">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">
+					<label for="file11">D</label>
+					<input type="text" id="file11">
+					<button class="loadFile" id="loadFile11">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">
+					<label for="file12">F</label>
+					<input type="text" id="file12">
+					<button class="loadFile" id="loadFile12">Load Sample</button>
+    			</div>
+    			
+    			<!--Files for Row 4-->
+    			
+    			<div class="fileWrapper">
+					<label for="file13">Z</label>
+					<input type="text" id="file13">
+					<button class="loadFile" id="loadFile13">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">
+					<label for="file14">X</label>
+					<input type="text" id="file14">
+					<button class="loadFile" id="loadFile14">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">
+					<label for="file15">C</label>
+					<input type="text" id="file15">
+					<button class="loadFile" id="loadFile15">Load Sample</button>
+				</div>
+				
+				<div class="fileWrapper">
+					<label for="file16">V</label>
+					<input type="text" id="file16">
+					<button class="loadFile" id="loadFile16">Load Sample</button>
+				</div>
+				
+    		</div>
+    	
+			<div id="padsWrapper">
+				
+				<div class="padsRow" id="row1">
+					<button class="pads" id="pad1" data-audio="audio/808kick.wav" data-key="49">1</button>
+					<button class="pads" id="pad2" data-audio="audio/808snare.wav" data-key="50">2</button>
+					<button class="pads" id="pad3" data-audio="audio/808clap.wav" data-key="51">3</button>
+					<button class="pads" id="pad4" data-audio="audio/808maracas.wav" data-key="52">4</button>
+				</div>
+				
+				<div class="padsRow" id="row2">
+					<button class="pads" id="pad5" data-audio="audio/808chihat.wav" data-key="113">Q</button>
+					<button class="pads" id="pad6" data-audio="audio/808ohihat.wav" data-key="119">W</button>
+					<button class="pads" id="pad7" data-audio="audio/808cowbell.wav" data-key="101">E</button>
+					<button class="pads" id="pad8" data-audio="audio/808rim.wav" data-key="114">R</button>
+				</div>
+				
+				<div class="padsRow" id="row3">
+					<button class="pads" id="pad9" data-audio="audio/808conga1.wav" data-key="97">A</button>
+					<button class="pads" id="pad10" data-audio="audio/808conga2.wav" data-key="115">S</button>
+					<button class="pads" id="pad11" data-audio="audio/808ride.wav" data-key="100">D</button>
+					<button class="pads" id="pad12" data-audio="audio/808stick.wav" data-key="102">F</button>
+				</div>
+				
+				<div class="padsRow" id="row4">
+					<button class="pads" id="pad13" data-audio="audio/808tom1.wav" data-key="122">Z</button>
+					<button class="pads" id="pad14" data-audio="audio/808tom2.wav" data-key="120">X</button>
+					<button class="pads" id="pad15" data-audio="audio/808tom3.wav" data-key="99">C</button>
+					<button class="pads" id="pad16" data-audio="audio/808tom4.wav" data-key="118">V</button>
+				</div>
+				
+			</div>
+			
+			<div id="saveLoadKitWrapper">
+			
+				<button id="saveKit">Save your kit!</button>
+				<button id="loadKit">Load a kit</button>
+				<button id="createAccount">Create Account</button>
+			
+			</div>
+			
+			<div id="loadSample">
+				<p>tasdasfasfasasd</p>
+				<button id="closeLoadSample">X</button>
+			</div>
+			
+		</div>
+		
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    	<script src="js/general.js"></script>
+		
+    </body>
+</html>
