@@ -1,9 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+#pageWrapper {
+	width: 1300px;
+	margin: 0 auto;
+}
+
 #filesWrapper {
 	float: left;
-	margin: 10em 0 0 5em;
+	margin: 10em 0 0 10em;
 }
 
 label {
@@ -17,7 +22,7 @@ input {
 
 #padsWrapper {
 	width: 20.75em;
-	margin: 10em 35em 0 0;
+	margin: 10em 25em 0 0;
 	border: 0.50em solid #000000;
 	padding: 0.50em;
 	border-radius: 0.25em;
@@ -49,15 +54,65 @@ input {
 #saveLoadKitWrapper {
 	display: inline-block;
 	float: right;
-	margin: -30em 2em 0 0;
+	margin: -30em 2em 0 -5em;
 }
 
 #loadSample {
-	width: 20em;
+	width: 30em;
 	height: 10em;
-	margin: 12em 0em 0em 30em;
+	margin: 12em 0em 0em 35em;
+	position: absolute;
+	background-color: #ffffff;
+	border: solid 0.25em #000000;
+	overflow: scroll;
+	display: none;
+}
+
+input[type=radio] {
+	display: block;
+}
+
+#saveKitBox {
+	width: 30em;
+	margin: 12em 0em 0em 35em;
 	position: absolute;
 	background-color: #ffffff;
 	border: solid 0.25em #000000;
 	display: none;
 }
+
+label[for="saveKitName"]{
+	display: block;
+}
+
+input[id="saveKitName"] {
+	margin-left: 2em;
+}
+
+#loadKitBox {
+	width: 30em;
+	margin: 12em 0em 0em 35em;
+	position: absolute;
+	background-color: #ffffff;
+	border: solid 0.25em #000000;
+	display: none;
+}
+
+#registrationBox {
+	width: 30em;
+	margin: 12em 0em 0em 35em;
+	position: absolute;
+	background-color: #ffffff;
+	border: solid 0.25em #000000;
+	display: none
+}
+
+#loginBox {
+	width: 30em;
+	margin: 12em 0em 0em 35em;
+	position: absolute;
+	background-color: #ffffff;
+	border: solid 0.25em #000000;
+	display: none
+}
+
