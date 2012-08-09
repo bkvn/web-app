@@ -1,0 +1,9 @@
+$sql = $db->prepare('INSERT INTO kits (accountid, name, pad1, pad2) VALUES (:accountid, :name, :pad1, :pad2)'); 
+$sql->bindValue(':username', $username, PDO::PARAM_STR);
+
+for ($i = 0; $i < 16; $i++) {
+$sql->bindValue(':pad' . $i, $pads[$i], PDO::PARAM_STR);
+}
+
+$sql->execute();
+$result = $sql->fetch();

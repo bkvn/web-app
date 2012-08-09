@@ -1,6 +1,7 @@
 $(document).ready(function () {
 	
 	var padToLoad = null;
+	var fieldToFill = null;
 	
 	$(document).keypress(function(e) {
    /* if (e.keyCode == 81 || e.keyCode == 113) { 
@@ -30,11 +31,14 @@ $(document).ready(function () {
 	$('.loadFile').on('click', function (ev) {
 		$('#loadSample:hidden').show();
 		padToLoad = $(this).data('pad');
+		fieldToFill = $(this).data('field');
 	});
 	
 	$('#closeLoadSample').on('click', function (ev) {
+		var audio = $('[name="radioSelect"]:checked').data('audio');
 		$('#loadSample:visible').hide();
-		$('#' + padToLoad).data('audio', $('[name="radioSelect"]:checked').data('audio'));
+		$('#' + padToLoad).data('audio', audio);
+		$('#' + fieldToFill).val(audio);
 	});
 	
 	// Save Kit open or close

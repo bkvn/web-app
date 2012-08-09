@@ -6,9 +6,9 @@ $email = $_POST['email'];
 
 $password = $_POST['password'];
 
-$con = mysql_connect('localhost', 'root', 'root');
+$con = mysql_connect('localhost', 'root', '');
 
-if (!con) {
+if (!$con) {
 	die (mysql_error());
 }
 

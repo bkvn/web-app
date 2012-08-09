@@ -16,104 +16,104 @@
     			
     			<div class="fileWrapper">
 					<label for="file1">1</label>
-					<input type="text" id="file1">
-					<button class="loadFile" id="loadFile1" data-pad="pad1">Load Sample</button>
+					<input type="text" name="text" id="file1" readonly="readonly">
+					<button class="loadFile" id="loadFile1" data-pad="pad1" data-field="file1">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">	
 					<label for="file2">2</label>
-					<input type="text" id="file2">
-					<button class="loadFile" id="loadFile2" data-pad="pad2">Load Sample</button>
+					<input type="text" name="text" id="file2" readonly="readonly">
+					<button class="loadFile" id="loadFile2" data-pad="pad2" data-field="file2">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">	
 					<label for="file3">3</label>
-					<input type="text" id="file3">
-					<button class="loadFile" id="loadFile3" data-pad="pad3">Load Sample</button>
+					<input type="text" name="text" id="file3" readonly="readonly">
+					<button class="loadFile" id="loadFile3" data-pad="pad3" data-field="file3">Load Sample</button>
 				</div>	
 				
 				<div class="fileWrapper">	
 					<label for="file4">4</label>
-					<input type="text" id="file4">
-					<button class="loadFile" id="loadFile4" data-pad="pad4">Load Sample</button>
+					<input type="text" name="text" id="file4" readonly="readonly">
+					<button class="loadFile" id="loadFile4" data-pad="pad4" data-field="file4">Load Sample</button>
 				</div>
 				
 				<!--Files for Row 2-->
 				
 				<div class="fileWrapper">
 					<label for="file5">Q</label>
-					<input type="text" id="file5">
-					<button class="loadFile" id="loadFile5" data-pad="pad5">Load Sample</button>
+					<input type="text"  name="text" id="file5" readonly="readonly">
+					<button class="loadFile" id="loadFile5" data-pad="pad5" data-field="file5">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">	
 					<label for="file6">W</label>
-					<input type="text" id="file6">
-					<button class="loadFile" id="loadFile6" data-pad="pad6">Load Sample</button>
+					<input type="text" name="text" id="file6" readonly="readonly">
+					<button class="loadFile" id="loadFile6" data-pad="pad6" data-field="file6">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">
 					<label for="file7">E</label>
-					<input type="text" id="file7">
-					<button class="loadFile" id="loadFile7" data-pad="pad7">Load Sample</button>
+					<input type="text" name="text" id="file7" readonly="readonly">
+					<button class="loadFile" id="loadFile7" data-pad="pad7" data-field="file7">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">
 					<label for="file8">R</label>
-					<input type="text" id="file8">
-					<button class="loadFile" id="loadFile8" data-pad="pad8">Load Sample</button>
+					<input type="text" name="text" id="file8" readonly="readonly">
+					<button class="loadFile" id="loadFile8" data-pad="pad8" data-field="file8">Load Sample</button>
 				</div>
 				
 				<!--Files for Row 3-->
 				
 				<div class="fileWrapper">
 					<label for="file9">A</label>
-					<input type="text" id="file9">
-					<button class="loadFile" id="loadFile9" data-pad="pad9">Load Sample</button>
+					<input type="text" name="text" id="file9" readonly="readonly">
+					<button class="loadFile" id="loadFile9" data-pad="pad9" data-field="file9">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">
 					<label for="file10">S</label>
-					<input type="text" id="file10">
-					<button class="loadFile" id="loadFile10" data-pad="pad10">Load Sample</button>
+					<input type="text" name="text" id="file10" readonly="readonly">
+					<button class="loadFile" id="loadFile10" data-pad="pad10" data-field="file10">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">
 					<label for="file11">D</label>
-					<input type="text" id="file11">
-					<button class="loadFile" id="loadFile11" data-pad="pad11">Load Sample</button>
+					<input type="text" name="text" id="file11" readonly="readonly">
+					<button class="loadFile" id="loadFile11" data-pad="pad11" data-field="file11">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">
 					<label for="file12">F</label>
-					<input type="text" id="file12">
-					<button class="loadFile" id="loadFile12" data-pad="pad12">Load Sample</button>
+					<input type="text" name="text" id="file12" readonly="readonly">
+					<button class="loadFile" id="loadFile12" data-pad="pad12" data-field="file12">Load Sample</button>
     			</div>
     			
     			<!--Files for Row 4-->
     			
     			<div class="fileWrapper">
 					<label for="file13">Z</label>
-					<input type="text" id="file13">
-					<button class="loadFile" id="loadFile13" data-pad="pad13">Load Sample</button>
+					<input type="text" name="text" id="file13" readonly="readonly">
+					<button class="loadFile" id="loadFile13" data-pad="pad13" data-field="file12">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">
 					<label for="file14">X</label>
-					<input type="text" id="file14">
-					<button class="loadFile" id="loadFile14" data-pad="pad14">Load Sample</button>
+					<input type="text" name="text" id="file14" readonly="readonly">
+					<button class="loadFile" id="loadFile14" data-pad="pad14" data-field="file14">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">
 					<label for="file15">C</label>
-					<input type="text" id="file15">
-					<button class="loadFile" id="loadFile15" data-pad="pad15">Load Sample</button>
+					<input type="text" name="text" id="file15" readonly="readonly">
+					<button class="loadFile" id="loadFile15" data-pad="pad15" data-field="file15">Load Sample</button>
 				</div>
 				
 				<div class="fileWrapper">
 					<label for="file16">V</label>
-					<input type="text" id="file16">
-					<button class="loadFile" id="loadFile16" data-pad="pad16">Load Sample</button>
+					<input type="text" name="text" id="file16" readonly="readonly">
+					<button class="loadFile" id="loadFile16" data-pad="pad16" data-field="file16">Load Sample</button>
 				</div>
 				
     		</div>
