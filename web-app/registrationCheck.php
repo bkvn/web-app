@@ -1,5 +1,19 @@
 <?php
 
+/**
+ * registrationCheck.php file is responsible for registering user accounts. It controls whether the entered email
+ * and/or password valid and saves user accounts into the database.
+ * @package: web-app
+ * @author: Berker Kovan <kova0058@algonquinlive.com>
+ * @copyright: 2012, Berker Kovan
+ * 
+ * @link: http://bkvn.phpfogapp.com/registrationCheck.php
+ * @version: 0.2
+ *
+ * @license: This file is licensed under dual permissive BSD-3/MIT licenses. Check License.txt file for
+ * further information.
+ */
+
 require_once 'includes/db.php';
 
 $con = mysql_connect('localhost', 'root', '');

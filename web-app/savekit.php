@@ -1,5 +1,19 @@
 <?php
 
+/**
+ * savekit.php file is responsible for saving user kits into the database. It loops through all pad samples and
+ * saves them all one by one into the database with user id.
+ * @package: web-app
+ * @author: Berker Kovan <kova0058@algonquinlive.com>
+ * @copyright: 2012, Berker Kovan
+ *
+ * @link: http://bkvn.phpfogapp.com/savekit.php
+ * @version: 0.3
+ *
+ * @license: This file is licensed under dual permissive BSD-3/MIT licenses. Check License.txt file for
+ * further information.
+ */
+
 require_once 'includes/db.php';
 
 $con = mysql_connect('localhost', 'root', '');

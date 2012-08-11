@@ -1,3 +1,17 @@
+/** 
+ * general.js file is responsible for managing user interaction with drum pads, JavaScript dialog boxes,
+ * and AJAX connection with PHP files. jQuery features are used extensively.
+ * @package: web-app
+ * @author: Berker Kovan <kova0058@algonquinlive.com>
+ * @copyright: 2012, Berker Kovan
+ *
+ * @link: http://bkvn.phpfogapp.com/js/general.js
+ * @version: 0.6
+ *
+ * @license: This file is licensed under dual permissive BSD-3/MIT licenses. Check License.txt file for
+ * further information.
+ */
+
 $(document).ready(function () {
 	
 	var padToLoad = null;
@@ -26,7 +40,9 @@ $(document).ready(function () {
 		audioElement.play();
 	});
 	
-	// Load File open or close
+	// Load File open or close,
+	// get data attributes of load button and input field,
+	// assign selected samples onto them
 	
 	$('.loadFile').on('click', function (ev) {
 		$('#loadSample:hidden').show();

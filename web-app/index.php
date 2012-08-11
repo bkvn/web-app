@@ -1,3 +1,19 @@
+<?php
+/**
+ * index.php file is responsible for creating the semantics for the main page of Interactive Drum Machine.
+ * It organizes the sample load name fields and buttons, drum pads, account registration/login and kit saving and
+ * loading buttons. It makes use of HTML5 features extensively.
+ * @package: web-app
+ * @author: Berker Kovan <kova0058@algonquinlive.com>
+ * @copyright: 2012, Berker Kovan
+ *
+ * @link: http://bkvn.phpfogapp.com/index.php
+ * @version: 0.6
+ *
+ * @license: This file is licensed under dual permissive BSD-3/MIT licenses. Check License.txt file for
+ * further information.
+ */
+?>
 <!DOCTYPE HTML>
 <html>
     <head>
